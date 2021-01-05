@@ -18,7 +18,7 @@ FFmpeg build with CUDA support for Ubuntu (especially for Google Colab) with pre
 2. Copy all the pre-built binaries from `./colab-ffmpeg-cuda/bin/` to `/usr/bin/` (**Recommended**)
 
 ```bash
-!cp ./colab-ffmpeg-cuda/bin/. /usr/bin/
+!cp -r ./colab-ffmpeg-cuda/bin/. /usr/bin/
 ```
 
 3. Check the installed `ffmpeg` version
@@ -33,7 +33,7 @@ FFmpeg build with CUDA support for Ubuntu (especially for Google Colab) with pre
 If you are having trouble with the pre-built binaries, buid the binaries from scratch (**It may take more than half an hour**)
 
 ```bash
-!chmod +x ./colab-ffmpeg-cuda/bin && ./colab-ffmpeg-cuda/bin --build
+!chmod +x ./colab-ffmpeg-cuda/build && ./colab-ffmpeg-cuda/build --build
 ```
 There you go, ffmpeg with the required binaries should be installed to `/usr/bin`.
 
