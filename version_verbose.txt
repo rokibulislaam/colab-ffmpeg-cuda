@@ -1,0 +1,11 @@
+ffmpeg version 4.2.4 Copyright (c) 2000-2020 the FFmpeg developers
+built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+configuration: --enable-cuda-nvcc --enable-cuvid --enable-nvenc --enable-libnpp --enable-cuda-llvm --pkgconfigdir=/content/workspace/lib/pkgconfig --prefix=/content/workspace --pkg-config-flags=--static --extra-cflags='-I/content/workspace/include -I/usr/local/cuda/include' --extra-ldflags='-L/content/workspace/lib -L/usr/local/cuda/lib64' --extra-libs='-lpthread -lm' --enable-static --disable-debug --disable-shared --disable-ffplay --disable-doc --enable-openssl --enable-gpl --enable-version3 --enable-nonfree --enable-pthreads --enable-libvpx --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libx264 --enable-libx265 --enable-runtime-cpudetect --enable-libfdk-aac --enable-avfilter --enable-libopencore_amrwb --enable-libopencore_amrnb --enable-filters --enable-libvidstab --enable-libaom --enable-libsrt
+libavutil      56. 31.100 / 56. 31.100
+libavcodec     58. 54.100 / 58. 54.100
+libavformat    58. 29.100 / 58. 29.100
+libavdevice    58.  8.100 / 58.  8.100
+libavfilter     7. 57.100 /  7. 57.100
+libswscale      5.  5.100 /  5.  5.100
+libswresample   3.  5.100 /  3.  5.100
+libpostproc    55.  5.100 / 55.  5.100
