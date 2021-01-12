@@ -28,7 +28,7 @@ FFmpeg build with CUDA support for Ubuntu (especially for Google Colab) with pre
 3. Check the installed `ffmpeg` version
 
 ```bash
-!ffmpeg --version
+!ffmpeg -version
 # Congratulations, ffmpeg with cuda support is installed!
 ```
 
@@ -83,7 +83,7 @@ There you go, ffmpeg with the required binaries should be installed to `/usr/bin
 
 ### HardwareAccel
 
-- `nv-codec`: [NVIDIA's GPU accelerated video codecs](https://devblogs.nvidia.com/nvidia-ffmpeg-transcoding-guide/). These encoders/decoders will only be available if a CUDA installation was found while building the binary. Luckily, Google Colab GPU instance comes already configured with CUDA and the pre-built binaries where built in the same environment. Supported codecs in nvcodec:
+- `nv-codec`: [NVIDIA's GPU accelerated video codecs](https://devblogs.nvidia.com/nvidia-ffmpeg-transcoding-guide/). These encoders/decoders will only be available if a CUDA installation was found while building the binary. Luckily, Google Colab GPU instance comes already configured with CUDA and the pre-built binaries included in the repostiory were built/compiled in the same environment. Supported codecs in nvcodec:
   - Decoders
     - H264 `h264_cuvid`
     - H265 `hevc_cuvid`
